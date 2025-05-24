@@ -1,0 +1,25 @@
+baseURL = "https://Ashvin-Gupta.github.io/AshvinGuptaBlog/"
+languageCode = "en-us"
+title = "Ashvin Gupta"
+theme = "PaperMod" 
+
+# Tells Hugo where your content is. Matches the 'content/posts' in sync-notion.js
+contentDir = "content"
+
+# For syntax highlighting of code blocks (from Notion's code blocks)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Allows raw HTML in markdown, needed for some rich content and MathJax/KaTeX
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    # Other highlight options like 'pygmentsUseClasses = true' if your theme styles code this way
+
+[params]
+  # Optional: Add general site parameters, e.g., for your theme
+  # Check your chosen theme's documentation for what params it supports.
+  # Example:
+  # description = "A blog about interesting topics and research."
+  # author = "Your Name"
