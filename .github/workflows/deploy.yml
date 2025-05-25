@@ -44,7 +44,7 @@ jobs:
           node sync-notion.js
           hugo --buildFuture || exit 1
       
-      - name: Debug: List Public Directory Contents and Repo Root
+      - name: List Public Directory Contents and Repo Root
         run: |
           echo "Contents of the 'public' directory:"
           ls -l public/ || echo "Public directory not found or empty." # List contents of public, or report if not found
