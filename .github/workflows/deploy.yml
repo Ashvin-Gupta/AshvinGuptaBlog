@@ -43,10 +43,12 @@ jobs:
         run: |
           node sync-notion.js
           hugo --buildFuture || exit 1
+      
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ github.workspace }}/public
-          publish_branch: gh-pages
+        id: deployment
+        uses: actions/deploy-pages@v4
