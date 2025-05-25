@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/posts/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/posts/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/tags/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/tags/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/tags/test/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/tags/test/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/posts/my-first-blog-post/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/posts/my-first-blog-post/</loc>
     <lastmod>2025-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/AshvinGuptaBlog/categories/</loc>
+    <loc>https://Ashvin-Gupta.github.io/AshvinGuptaBlog/categories/</loc>
   </url>
 </urlset>
