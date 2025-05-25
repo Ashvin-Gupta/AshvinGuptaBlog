@@ -10,9 +10,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions: # <--- ADD THIS BLOCK
-    contents: write # Allows the workflow to write to the repository
-    pages: write    # Specifically grants permission to deploy to GitHub Pages
-    id-token: write # Required for some GitHub Pages features like OIDC, good to include
+      contents: write # Allows the workflow to write to the repository
+      pages: write    # Specifically grants permission to deploy to GitHub Pages
+      id-token: write # Required for some GitHub Pages features like OIDC, good to include
 
 
     steps:
